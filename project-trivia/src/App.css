@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@300&display=swap');
+
+body {
+  align-items: center;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/014/518/748/original/yellow-question-mark-background-with-text-space-quiz-symbol-vector.jpg);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.form {
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 4px 13px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 333px;
+  justify-content: center;
+  padding: 10px;
+  width: 614px;
+}
+
+.button-play, .proximo {
+  background: #fcf341;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 40px;
+  left: 155px;
+  top: 190px;
+  width: 300px;
+}
+
+.button-setting, button {
+  background: #1974ce;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 40px;
+  left: 155px;
+  top: 250px;
+  width: 300px;
+}
+
+.input-email {
+  border-radius: 10px;
+  height: 40px;
+  left: 150px;
+  top: 130px;
+  width: 300px;
+}
+
+.input-name {
+  border-radius: 10px;
+  height: 40px;
+  left: 150px;
+  top: 50px;
+  width: 300px;
+}
+
+.label-name {
+  font-family: Anton , sans-serif;
+  font-size: 30px;
+}
+
+.label-email {
+  font-family: Anton , sans-serif;
+  font-size: 30px;
+}
+
+.trivia {
+  height: 160px;
+  width: 420px;
+}
+
+header {
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Quicksand , sans-serif;
+  height: 150px;
+  justify-content: space-around;
+  width: 614px;
+}
+
+.pergunta {
+  font-family: Quicksand , sans-serif;
+}
+
+.resposta {
+  font-family: Quicksand , sans-serif;
+}
+
+.entretenimento {
+  font-family: Quicksand , sans-serif;
+}
+
+.proximo {
+  font-family: Quicksand , sans-serif;
+}
+
+.header-trivia {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 600px;
+}
+
+.game {
+  align-items: center;
+  border: red 1px solid;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+
+}
+
+.main-game {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.botoes-respostas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+}
+
+.score {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+}
+
+.perguntas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: center;
+}
