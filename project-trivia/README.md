@@ -7,6 +7,12 @@ Aqui você vai encontrar os detalhes de como foi estruturado o desenvolvimento d
 <details>
   <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 
+  <img src="src/Trivia-login.png" >
+  <br />
+  <img src="src/Trivia-game.png" >
+   <br />
+  <img src="src/Trivia-score.png" >
+
 Um jogo de perguntas e respostas baseado no jogo **Trivia** _(tipo um show do milhão americano rs)_ utilizando _React e Redux_, desenvolvendo em grupo suas funcionalidades de acordo com as demandas definidas em um quadro _Kanban_. Temos uma aplicação onde a pessoa usuária pode:
 
   - Logar no jogo e, se o email tiver cadastro no site [Gravatar](https://pt.gravatar.com/), ter sua foto associada ao perfil da pessoa usuária.
