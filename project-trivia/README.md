@@ -1,16 +1,13 @@
 # Boas-vindas ao repositório do projeto de Trivia!
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir e, se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
+Aqui você vai encontrar os detalhes de como foi estruturado o desenvolvimento deste projeto a partir deste repositório.
 
 # Entregáveis
 
 <details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
+  <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
 
-Você deverá desenvolver um jogo de perguntas e respostas baseado no jogo **Trivia** _(tipo um show do milhão americano rs)_ utilizando _React e Redux_, desenvolvendo em grupo suas funcionalidades de acordo com as demandas definidas em um quadro _Kanban_. Confira o Slack para saber como acessar o quadro! Para viver um cenário mais próximo do mercado de trabalho, você deve fazer uma cópia desse quadro para utilizar com seu grupo. É de suma importância que o grupo se organize utilizando o quadro para maior eficiência e para que se minimizem os conflitos que a união de vários códigos trará. A partir dessas demandas, teremos uma aplicação onde a pessoa usuária poderá:
+Um jogo de perguntas e respostas baseado no jogo **Trivia** _(tipo um show do milhão americano rs)_ utilizando _React e Redux_, desenvolvendo em grupo suas funcionalidades de acordo com as demandas definidas em um quadro _Kanban_. Temos uma aplicação onde a pessoa usuária pode:
 
   - Logar no jogo e, se o email tiver cadastro no site [Gravatar](https://pt.gravatar.com/), ter sua foto associada ao perfil da pessoa usuária.
   - Acessar a página referente ao jogo, onde se deverá escolher uma das respostas disponíveis para cada uma das perguntas apresentadas. A resposta deve ser marcada antes do contador de tempo chegar a zero, caso contrário a resposta deverá ser considerada errada.
@@ -23,7 +20,7 @@ Você deverá desenvolver um jogo de perguntas e respostas baseado no jogo **Tri
 <details>
   <summary><strong>:memo: Habilidades</strong></summary><br />
 
-Nesse projeto, você será capaz de:
+Nesse projeto, nos tornamos capazes de:
 
   - Criar um store Redux em aplicações React
 
@@ -40,23 +37,13 @@ Nesse projeto, você será capaz de:
   - Escrever testes para garantir que sua aplicação possua uma boa cobertura de testes.
 </details>
 
- 
-<details>
-  <summary><strong>💻 Protótipo do projeto no Figma</strong></summary><br />
-
-Além da qualidade do código e do atendimento aos requisitos, um bom layout é um dos aspectos responsáveis por melhorar a usabilidade de uma aplicação e turbinar seu portfólio!
-
-Você pode estar se perguntando: *"Como deixo meu projeto com um layout mais atrativo?"* 🤔
-
-Para isso, disponibilizamos esse [protótipo do Figma](https://www.figma.com/file/59PXrUUfqaRT9P3oDsKVDS/%5BProjeto%5D%5BFrontend%5D-Trivia) para lhe ajudar !
-
-⚠️ A estilização de sua aplicação não será avaliada nesse projeto, portanto esse protótipo é apenas uma **sugestão** e seu uso é **opcional**. Sinta-se à vontade para modificar o layout e deixá-lo do seu jeito.
-
-</details>
+<br/>
 
 # Requisitos
 
 Nesse projeto, a pessoa que joga deve conseguir completar o jogo e conseguir ver seu placar depois de responder todas as 5 perguntas, além de acessar a tela de configurações e de ranking.
+
+Os requisitos exigidos foram estes abaixo:
 
 ## 1. Crie a tela de login, onde a pessoa que joga deve preencher as informações para iniciar um jogo
 
@@ -155,3 +142,6 @@ Nesse projeto, a pessoa que joga deve conseguir completar o jogo e conseguir ver
 
 ### 25. Ao mudar o valor do dropdown tipo, apenas perguntas do tipo selecionado devem aparecer para a pessoa que está jogando. Essa configuração será identificada pela chave type no retorno da API.
 
+<br />
+
+## Obs: Projeto em andamento....
