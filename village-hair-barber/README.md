@@ -1,4 +1,4 @@
 # Barbearia Village Hair
 
- <img src="src/Logo.png" alt="logo" />
+ <img src="src/logo2.png" />
 
