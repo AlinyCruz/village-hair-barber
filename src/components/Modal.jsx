@@ -4,36 +4,6 @@ import clsx from 'clsx';
 import { styled, Box } from '@mui/system';
 import { Modal as BaseModal } from '@mui/base/Modal';
 
-export default function ModalUnstyled() {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
-  return (
-    <div>
-      <TriggerButton type="button" onClick={handleOpen}>
-        Recado!
-      </TriggerButton>
-      <Modal
-        aria-labelledby="unstyled-modal-title"
-        aria-describedby="unstyled-modal-description"
-        open={open}
-        onClose={handleClose}
-        slots={{ backdrop: StyledBackdrop }}
-      >
-        <ModalContent sx={style}>
-          <h3 id="unstyled-modal-title" className="modal-title">
-            Feliz Natal e um próspero ano novo!!!
-          </h3>
-          <p id="unstyled-modal-description" className="modal-description">
-            Estaremos fechados do dia 01/01/2024 até 16/01/2024.
-          </p>
-        </ModalContent>
-      </Modal>
-    </div>
-  );
-}
-
 const Backdrop = React.forwardRef((props, ref) => {
   const { open, className, ...other } = props;
   return (
@@ -158,3 +128,36 @@ const TriggerButton = styled('button')(
   }
 `,
 );
+
+function ModalUnstyled() {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  return (
+    <div>
+      <TriggerButton type="button" onClick={handleOpen}>
+        Recado!
+      </TriggerButton>
+      <Modal
+        aria-labelledby="unstyled-modal-title"
+        aria-describedby="unstyled-modal-description"
+        open={open}
+        onClose={handleClose}
+        slots={{ backdrop: StyledBackdrop }}
+      >
+        <ModalContent sx={style}>
+          <h3 id="unstyled-modal-title" className="modal-title">
+            Feliz Natal e um próspero ano novo!!!
+          </h3>
+          <p id="unstyled-modal-description" className="modal-description">
+            Estaremos fechados do dia 01/01/2024 até 16/01/2024.
+          </p>
+        </ModalContent>
+      </Modal>
+    </div>
+  );
+}
+
+export default ModalUnstyled;
+
