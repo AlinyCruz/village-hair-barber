@@ -1,3 +1,5 @@
+/* SOBRE */
+
 #conteudo {
   display: flex;
   flex-direction: row;
@@ -42,4 +44,114 @@
   align-items: center;
   text-align: justify;
   padding: 15px;
+}
+
+/* HORARIOS */
+
+#horarios {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#titulo {
+  width: 120%;
+  color: #D6B206;
+  padding: 10px;
+  margin: 10px;
+}
+
+p {
+  margin: 8px 0;
+  color: #D9D9D9;
+  font-size: 20px;
+}
+
+.dias {
+  color: #80A5F6;
+  font-weight: bold;
+}
+
+.horas {
+  color: #D9D9D9;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: rgb(16, 95, 186);
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.btn a {
+  color: #D9D9D9;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #a4b77f;
+}
+
+/* VALORES */
+#tab-valores {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#titulo-tab {
+  color: #333;
+  margin: 10px;
+}
+
+.item-tab {
+  font-weight: bold;
+  margin: 20%;
+}
+
+th, td {
+  padding: 10px;
+  background-color: #D9D9D9;
+}
+
+th {
+  background-color: #D6B206;
+}
+
+#tab-valores tr {
+  border: 1px solid #da1d1d;
+  padding-top: 10px;
+}
+
+/* ENDEREÇO */
+
+#mapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  text-align: center;
+  color: #D6B206;
+}
+
+#mapa img {
+  width: 80%;
+}
+
+#mapa :hover {
+  opacity: 0.9;
 }

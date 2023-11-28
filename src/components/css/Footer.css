@@ -5,10 +5,8 @@ footer {
   flex-direction: column;
   text-align: center;
   list-style: none;
-  background-color: rgba(1, 21, 45, 0.686);
   width: 100%;
   padding: 10px 0;
-  font-family: 'Oswald', sans-serif;
 }
 
 #menu-footer {
@@ -41,4 +39,20 @@ footer {
 
 #criador a:hover {
   text-decoration: underline;
+}
+
+/* CONTATOS */
+
+#contatos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(16, 95, 186);
+}
+
+#contatos a {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  width: 10%;
 }
