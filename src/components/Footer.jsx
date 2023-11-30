@@ -1,15 +1,18 @@
 import "../components/css/Footer.css";
 import logo from "../assets/logo_site.png";
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
+import BotaoSeta from "./BotãoSeta";
 
 const Footer = () => {
   return (
     <footer>
       <nav id="menu-footer">
         <h2>DEUS AMA A TODOS</h2>
-        <a href="#home"><img src={logo} alt="logo-barber" /></a>
+        <a href="#main-header"><img src={logo} alt="logo-barber" /></a>
         <br />
         <h2>VILLAGE HAIR NA CABEÇA</h2>
+        {/* <a id='seta' href="#main-header"><GoChevronUp size={50} /></a> */}
+        <BotaoSeta />
         <br />
         <div id="contatos">
           <a href="https://api.whatsapp.com/send?phone=5511948105703" target="_blank" rel="noreferrer">
@@ -20,10 +23,11 @@ const Footer = () => {
           </a>
         </div>
         <br />
-        <p>Rua Saparás, 107 - São João Clímaco - São Paulo/SP</p>
+        <img id="pagto-icons" src="https://gifs.eco.br/wp-content/uploads/2023/03/imagens-de-formas-de-pagamento-png-4.png" alt="pagto-icons" />
+        <p className="end">Rua Saparás, 107 - São João Clímaco - São Paulo/SP</p>
       </nav>
       <br />
-      <h5 id="criador">DESENVOLVIDO POR<a href="https://github.com/AlinyCruz" target="_blank" rel="noreferrer">ALINE CRUZ © 2023</a></h5>
+      <h5 id="criador">DESENVOLVIDO POR<a href="https://www.linkedin.com/in/aliny-cruz-dev/" target="_blank" rel="noreferrer">ALINE CRUZ © 2023</a></h5>
     </footer>
   );
 };

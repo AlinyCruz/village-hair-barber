@@ -7,22 +7,17 @@ import modelo02 from '../assets/modelo02.png';
 import modelo03 from '../assets/modelo03.png';
 import modelo04 from '../assets/modelo04.png';
 
-
-
-
 function CarouselComp() {
-
   const settings = {
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 500,
+    speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
-    customPaging: function (i) {
-      // Função para personalizar cada dot individualmente
+    autoplaySpeed: 6000,
+    customPaging: function () {
       return <div style={customDotStyles}></div>;
     },
   };

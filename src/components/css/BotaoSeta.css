@@ -1,0 +1,16 @@
+.botao-seta {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 40%;
+  font-size: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+.botao-seta.visivel {
+  display: block;
+}

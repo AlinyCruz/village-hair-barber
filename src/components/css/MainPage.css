@@ -1,0 +1,17 @@
+#video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  align-items: center;
+  overflow: hidden;
+}
+
+#video-background {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}

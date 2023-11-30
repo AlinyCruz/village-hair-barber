@@ -26,6 +26,10 @@ footer {
   text-decoration: none;
 }
 
+.end {
+  font-size: 15px;
+}
+
 #criador a {
   text-align: center;
   padding: 10px;
@@ -35,6 +39,7 @@ footer {
 
 #criador {
   font-size: 12px;
+  color: rgba(185, 185, 185, 0.874);
 }
 
 #criador a:hover {
@@ -47,7 +52,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(16, 95, 186);
+  /* background-color: rgb(16, 95, 186); */
+  /* background-color: rgb(124, 129, 134); */
+  background-color:  #001F3F;
 }
 
 #contatos a {
@@ -55,4 +62,21 @@ footer {
   justify-content: center;
   padding: 15px;
   width: 10%;
+}
+
+#seta {
+  display: flex;
+  justify-content: end;
+}
+
+#pagto-icons {
+  /* border: 1px solid red; */
+  background-color: #fff;
+  display: flex;
+  margin-left: 37%;
+  justify-content: center;
+  border-radius: 5px;
+  width: 25%;
+  padding: 10px;
+  justify-content:baseline;
 }
