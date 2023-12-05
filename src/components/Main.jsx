@@ -51,14 +51,13 @@ function Main() {
       <MainPage />
       <br />
       <Divider />
-
       <div id="destaques">
         <div id="div-img">
           {images.map((image) => (
             <div className="img-text" key={image.id}>
-              <img id="destaques-img" src={image.src} alt={image.alt} />
-              <p id="destaques-text">{image.text}</p>
-              <p id="destaques-desc">{image.desc}</p>
+              <img id="destaques-img" data-aos="fade-right" src={image.src} alt={image.alt}/>
+              <p id="destaques-text" data-aos="fade-right">{image.text}</p>
+              <p id="destaques-desc" data-aos="fade-right">{image.desc}</p>
             </div>
           ))}
         </div>
@@ -66,7 +65,7 @@ function Main() {
 
       <Divider />
 
-      <div id="horarios">
+      <div id="horarios" data-aos="zoom-in">
         <h3 id="titulo">ATENDIMENTO POR ORDEM DE CHEGADA</h3>
         <p className="dias">TERÇA á SEXTA</p><p className="horas">10:00 ás 19:00</p>
         <h3 id="titulo">ATENDIMENTO AGENDADO</h3>
@@ -79,7 +78,7 @@ function Main() {
 
       <Divider />
 
-      <table id="tab-valores">
+      <table id="tab-valores" data-aos="zoom-in">
         <thead>
           <tr>
             <th colSpan="2">
@@ -103,11 +102,11 @@ function Main() {
       </table>
 
       <nav id="mapa">
-        <h3><FaMapMarker size={30} color="#D6B206" /> ONDE ESTAMOS</h3>
-        <p>Rua Saparás, 107 - São João Clímaco</p>
-        <p>São Paulo/SP - CEP: 04255-110</p>
+        <h3 data-aos="zoom-in"><FaMapMarker size={30} color="#D6B206" /> ONDE ESTAMOS</h3>
+        <p data-aos="zoom-in">Rua Saparás, 107 - São João Clímaco</p>
+        <p data-aos="zoom-in">São Paulo/SP - CEP: 04255-110</p>
         <br />
-        <a href="https://www.google.com/maps/place/BARBEARIA+VILLAGE+HAIR/@-23.6218232,-46.5964199,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5b628e60d0c9:0x2efa7633ee1f8c47!8m2!3d-23.6218281!4d-46.593845!16s%2Fg%2F11f1wjg5y6?entry=ttu"><img src={mapa} alt="fachada-barber" target="_blank" rel="noreferrer" /></a>
+        <a data-aos="zoom-in" href="https://www.google.com/maps/place/BARBEARIA+VILLAGE+HAIR/@-23.6218232,-46.5964199,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5b628e60d0c9:0x2efa7633ee1f8c47!8m2!3d-23.6218281!4d-46.593845!16s%2Fg%2F11f1wjg5y6?entry=ttu"><img src={mapa} alt="fachada-barber" target="_blank" rel="noreferrer" /></a>
         <br />
         < BotaoRota />
       </nav>

@@ -7,18 +7,18 @@ const Footer = () => {
   return (
     <footer>
       <nav id="menu-footer">
-        <h2>DEUS AMA A TODOS</h2>
-        <a href="#main-header"><img src={logo} alt="logo-barber" /></a>
+        <h2 data-aos="zoom-in-up">DEUS AMA A TODOS</h2>
+        <a href="#main-header"><img src={logo} alt="logo-barber" data-aos="zoom-in-up"/></a>
         <br />
-        <h2>VILLAGE HAIR NA CABEÇA</h2>
+        <h2 data-aos="zoom-in-up">VILLAGE HAIR NA CABEÇA</h2>
         {/* <a id='seta' href="#main-header"><GoChevronUp size={50} /></a> */}
         <BotaoSeta />
         <br />
         <div id="contatos">
-          <a href="https://api.whatsapp.com/send?phone=5511948105703" target="_blank" rel="noreferrer">
+          <a data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" href="https://api.whatsapp.com/send?phone=5511948105703" target="_blank" rel="noreferrer">
             <FaWhatsapp size={50} color="#D9D9D9" />
           </a>
-          <a href="https://www.instagram.com/villagehair_barbearia/" target="_blank" rel="noreferrer">
+          <a data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" href="https://www.instagram.com/villagehair_barbearia/" target="_blank" rel="noreferrer">
             <FaInstagram size={50} color="#D9D9D9" />
           </a>
         </div>
