@@ -1,11 +1,12 @@
 import "../components/css/MainPage.css";
-import video from '../assets/video3.webm';
+import video from '../assets/video.webm';
 
 const MainPage = () => {
   return (
       <div id="video-container" >
+        <h2 id="saudacao">Sejam bem vindos ao Village Hair!!!</h2>
         <video id="video-background" autoPlay muted loop>
-          <source src={video} type="video/mp4" />
+          <source src={video} type="video/webm" />
         </video>
       </div>
   );

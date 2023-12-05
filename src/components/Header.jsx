@@ -17,9 +17,13 @@ function Header() {
     'Relaxamento',
     'Progressiva',
     'Valores',
+    'Valor',
+    'Preço',
+    'Preco'
   ]
   const localizacao = [
     'Localização',
+    'Localizaçao',
     'Localizacao',
     'Endereço',
     'Endereco',

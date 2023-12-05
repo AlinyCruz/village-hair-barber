@@ -13,11 +13,12 @@
 }
 
 #destaques {
-  /* border: 1px solid rgb(101, 101, 101); */
+  /* border: 1px solid rgb(255, 30, 30); */
   display: flex;
-  flex-direction: column;
+  background-color: #001F3F;
   margin: 20px auto;
-  padding: 20px 50px;
+  width: 90%;
+  padding: 5% 0;
   color: rgb(101, 101, 101);
 }
 
@@ -29,15 +30,15 @@
 
 #destaques-desc{
   /* border: 1px solid rgb(101, 101, 101); */
-  padding: 10px;
-  margin: 20px;
+  padding: 25px;
+  margin: 40px;
   text-align: justify;
 }
 
 #destaques-img {
   display: flex;
-  border-radius: 15%;
-  width: 40%;
+  border-radius: 15% 50%;
+  width: 50%;
   height: 60%;
   margin: 20px;
 }
