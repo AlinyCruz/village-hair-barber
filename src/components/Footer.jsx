@@ -26,8 +26,9 @@ const Footer = () => {
         <img id="pagto-icons" src="https://gifs.eco.br/wp-content/uploads/2023/03/imagens-de-formas-de-pagamento-png-4.png" alt="pagto-icons" />
         <p className="end">Rua Saparás, 107 - São João Clímaco - São Paulo/SP</p>
       </nav>
-      <br />
-      <h5 id="criador">DESENVOLVIDO POR<a href="https://www.linkedin.com/in/aliny-cruz-dev/" target="_blank" rel="noreferrer">ALINE CRUZ © 2023</a></h5>
+      
+      <h5 className="end">Copyright © 2023 | Todos os direitos reservados</h5>
+      <h5 id="criador">DESENVOLVIDO POR<a href="https://www.linkedin.com/in/aliny-cruz-dev/" target="_blank" rel="noreferrer">ALINE CRUZ</a></h5>
     </footer>
   );
 };
