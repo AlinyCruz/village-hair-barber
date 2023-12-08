@@ -27,7 +27,7 @@ const Footer = () => {
         <p className="end">Rua Saparás, 107 - São João Clímaco - São Paulo/SP</p>
       </nav>
       
-      <h5 className="end">Copyright © 2023 | Todos os direitos reservados</h5>
+      <h5 className="end">Copyright ©VH 2023 | Todos os direitos reservados</h5>
       <h5 id="criador">DESENVOLVIDO POR<a href="https://www.linkedin.com/in/aliny-cruz-dev/" target="_blank" rel="noreferrer">ALINE CRUZ</a></h5>
     </footer>
   );
