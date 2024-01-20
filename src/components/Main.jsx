@@ -27,7 +27,7 @@ function Main() {
         Convidamos você a conhecer nosso trabalho e a experiência única que oferecemos.<br /><br />
         Seja bem-vindo à Barbearia Village Hair, onde a paixão pela arte de cortar cabelo se encontra com a excelência no atendimento.<br /><br />
              
-        B. Cruz e Equipe Barbearia Village Hair.
+        Equipe Barbearia Village Hair.
         </>
       ),
     },
