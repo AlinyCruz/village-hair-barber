@@ -1,5 +1,5 @@
 import "../components/css/MainPage.css";
-import video from '../assets/videosite.mp4';
+import video from '../assets/video.mp4';
 
 const MainPage = () => {
   return (
